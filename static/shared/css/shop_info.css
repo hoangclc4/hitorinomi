@@ -1,0 +1,343 @@
+.center{
+	text-align:center;
+}
+.f_left {
+    float: left;
+}
+.f_right {
+    float: right;
+}
+#key {
+	background: url('../img/shop_info/key.jpg') no-repeat center center;
+}
+#sec01 {
+	font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ明朝体 Pro", "ヒラギノ角ゴシックPro", "ＭＳ ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-color: #17191d;
+	padding: 43px 0 64px;
+}
+#sec01 .fl {
+	padding-top: 10px;
+	width: 441px;
+	margin-left: 50px;
+}
+#sec01 dl.dlbig {
+	position: relative;
+	padding-left: 28px;
+	margin: 53px 0 2px 50px;
+}
+#sec01 dl.dlbig dt {
+	font-size: 33px;
+	line-height: 34px;
+}
+#sec01 dl.dlbig dt:before {
+	content: url('../img/shop_info/sec1_dt.png');
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#sec01 dl.dlbig dt span {
+	display: block;
+	font-size: 18px;
+	margin-top: 20px;
+}
+#sec01 dl.dlbig dd {
+	color: #846e56;
+}
+#sec01 .sec01_img img {
+	width: 100%;
+    height: auto;
+}
+#sec01 .list {
+	position: relative;
+	line-height: 24px;
+	margin-top: 25px;
+}
+#sec01 .list dl {
+	width: 300px;
+}
+#sec01 .list dl dt {
+	float: left;
+	width: 58px;
+	font-size: 13px;
+	color: #9f9f9f;
+}
+#sec01 .list dl dd {
+	width: 220px;
+	float: left;
+	margin-left: 7px;
+}
+#sec01 .list .viewmore {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+#sec01 .fr {
+	width: 418px;
+	margin-right: 42px;
+}
+#sec01 table {
+	width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px 10px !important;
+    margin-left: -10px;
+    line-height: 24px;
+}
+#sec01 table th {
+    background: #292929;
+    color: #9f9f9f;
+    text-align: center;
+    padding: 3px 0 0 0;
+    font-size: 13px;
+    width: 130px;
+    vertical-align: middle;
+}
+#sec01 table td {
+    background: #212122;
+    color: #fff;
+    text-align: center;
+    padding: 10px 5px;
+}
+#sec01 table td span {
+    font-size: 20px;
+}
+#sec01 .blog-card {
+	background-color: #fff;
+	margin-top: 40px;
+	width: 395px;
+	color: #000;
+}
+#sec01 .blog-card dl {
+	width: 260px;
+	float: left;
+	letter-spacing: 2px;
+	/* padding-top: 15px; */
+	line-height: 24px;
+}
+#sec01 .blog-card.fsize dl {
+	width: auto;
+}
+#sec01 .blog-card > a {
+	display: table;
+	padding: 9px 10px;
+	color: #000;
+	width: 375px;
+	height: 100%;
+	transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	overflow: auto;
+}
+#sec01 .blog-card > a:hover,
+#sec01 .blog-card > a:active {
+	background: #AFAFAF;
+}
+#sec01 .blog-card dl dt {
+	font-size: 19px;
+	font-weight: bold;
+	margin-bottom: 9px;
+}
+#sec01 .blog-card .bImg {
+	width: 100px;
+	float: right;
+}
+
+#sec01 .area_col .col h3 {
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+    font-size: 33px;
+    line-height: 34px;
+    letter-spacing: 1px;
+	background-position: 0 4px;
+    padding-left: 30px;
+}
+#sec01 .area_col .col h4 {
+	font-size: 18px;
+	padding-left: 30px;
+	color: #fff;
+}
+#sec01 .area_col .col h5 {
+    padding-left: 30px;
+    color: #846e56;
+}
+#sec01 .shopinfo {
+	line-height: 24px;
+	margin-top: 25px;
+}
+#sec01 .shopinfo dt {
+    float: left;
+    width: 58px;
+    font-size: 13px;
+    color: #9f9f9f;
+}
+#sec01 .btn_back {
+    position: absolute;
+    right: -14px;
+}
+#sec01 .info_btn {
+	overflow: auto;
+}
+
+
+#sec02 {
+	padding: 68px 0 76px;
+}
+#sec02 .info {
+	width: 790px;
+	margin: 59px auto 0;
+}
+#sec02 .info .wrap_ttl {
+	width: 620px;
+	margin: auto;
+}
+#sec02 .info .ttl {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 18px;
+}
+#sec02 .info .ttl:nth-child(4n) {
+	margin-right: 0;
+}
+#sec02 .list {
+	margin: 10px 0 0 26px;
+	width: 790px;
+}
+#sec02 .list > div {
+	width: 340px;
+}
+#sec02 .list > div.fr {
+	width: 390px;
+}
+#sec02 .list dl {
+	border-bottom: 1px solid #483d35;
+	letter-spacing: 1.4px;
+	line-height: 24px;
+	padding: 11px 0;
+}
+#sec02 .list dl dt:before {
+	content: "◆";
+	color: #846e56;
+}
+@media screen and (max-width: 768px){
+	#header .wrap {
+		overflow: hidden;
+		padding: 0;
+	}
+	#header #key {
+		width: 100%;
+		margin-left: 0;
+	}
+	.area_col .col {
+		width: 100%;
+		margin: 20px auto;
+		padding: 0 0 20px 0;
+	}
+	.area_col .f_left, .area_col .f_right {
+		width: 100%;
+	}
+	.area_col .f_left img {
+		width: 100%;
+	}
+	#sec01 .area_col .col h3 {
+		font-size: 22px;
+	}
+	#sec01 .area_col .col h4 {
+		margin-top: 10px;
+		padding-left: 0;
+	}
+	#sec01 .area_col .col h5 {
+		padding-left: 0;
+	}
+	#sec01 .fl, #sec01 .fr {
+		width: 100%;
+		margin: 0;
+	}
+	#sec01 .shopinfo {
+		margin-top: 15px;
+	}
+	#sec01 .shopinfo dd {
+		width: calc(100% - 65px);
+	}
+	#sec01 .info_btn {
+		padding-left: 6px;
+	}
+	#sec01 .area_col h2 {
+		font-size: 24px;
+		background-position: center left;
+		background-size: 100%;
+		height: 70px;
+		padding: 26px 0 0 14%;
+	}
+	#sec01 {
+		overflow: hidden;
+		padding: 20px 0;
+	}
+	#sec01 .list {
+		margin-top: 20px;
+	}
+	#sec01 .list dl {
+		width: auto;
+	}
+	#sec01 .list dl dd {
+		width: calc(100% - 65px);
+	}
+	#sec01 .list dl br {
+		display: none;
+	}
+	#sec01 dl.dlbig {
+		margin: 10px 0 0;
+	}
+	#sec01 dl.dlbig dt {
+		font-size: 22px;
+	}
+	#sec01 dl.dlbig dt:before {
+	    top: 8px;
+	    left: 4px;
+	}
+	#sec01 dl.dlbig dt span {
+		margin-top: 10px;
+	}
+	#sec01 table {
+		border-spacing: 6px 6px !important;
+		margin-top: 15px;
+		margin-left: 0;
+	}
+	#sec01 .blog-card {
+		margin-top: 15px;
+	    width: auto;
+	}
+	#sec01 .blog-card dl {
+		width: calc(100% - 110px);
+		padding-top: 6px;
+	}
+	#sec01 .blog-card > a {
+		width: auto;
+	}
+	#sec02 {
+		padding: 20px 0;
+	}
+	#sec02 .info {
+		margin: 20px auto 0;
+		width: auto;
+	}
+	#sec02 .info .wrap_ttl {
+		width: auto;
+	}
+	#sec02 .info .ttl {
+	    float: left;
+	    margin-right: 0;
+	    margin-bottom: 19px;
+	    width: 48%;
+	}
+	#sec02 .info .ttl img {
+		width: 100%;
+	}
+	#sec02 .info .ttl:nth-child(2n) {
+		margin-left: 4%;
+	}
+	#sec02 .list {
+		width: auto;
+		margin: 0;
+	}
+	#sec02 .list > div {
+		width: auto !important;
+	}
+}

@@ -1,0 +1,76 @@
+#key {
+	background: url('../img/writer/key.jpg') no-repeat center center;
+}
+#sec01 {
+	font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ明朝体 Pro", "ヒラギノ角ゴシックPro", "ＭＳ ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	padding: 119px 0 58px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#sec01 h2 {
+	margin-left: -59px;
+}
+#sec01 .txtbig {
+	font-size: 24px;
+	line-height: 36px;
+	margin-top: 36px;
+}
+#sec01 .txt {
+	font-size: 16px;
+	margin: 29px 0;
+}
+#sec01 .note {
+	width: 460px;
+	margin: 0 auto;
+	font-size: 15px;
+	margin-top: 70px;
+	text-align: left;
+}
+#sec02 {
+	background: url('../img/shared/partent250.jpg') repeat center top;
+	/* font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ明朝体 Pro", "ヒラギノ角ゴシックPro", "ＭＳ ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
+	padding: 26px 0 58px;
+	font-size: 15px;
+	line-height: 30px;
+	margin-bottom: 17px;
+}
+#sec02 .main {
+	width: 890px;
+	margin: auto;
+}
+#sec02 .note {
+	margin: 38px 0 0 211px;
+}
+#sec02 .w138 {
+	width: 138px;
+}
+#sec02 .w180 {
+	width: 180px;
+}
+@media screen and (max-width: 768px) {
+	#sec01 {
+		padding: 20px 0;
+	}
+	#sec01 h2 {
+		margin-left: 0;
+	}
+	#sec01 .txtbig {
+	    font-size: 22px;
+	    margin-top: 25px;
+	}
+	#sec01 .txt {
+	    margin: 20px 0;
+	}
+	#sec01 .note {
+		margin-top: 0;
+	}
+	#sec02 {
+		padding: 20px 0 25px;
+	}
+	#sec02 .main {
+		width: auto;
+	}
+	#sec02 .note {
+		margin: 15px 0 0;
+	}
+}

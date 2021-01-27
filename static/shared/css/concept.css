@@ -1,0 +1,164 @@
+#key {
+	background: url('../img/concept/key.jpg') no-repeat center center;
+}
+#sec01 {
+	padding: 100px 0 0 73px;
+	position: relative;
+	z-index: 1;
+}
+#sec01 p.txt {
+	position: relative;
+	z-index: 1;
+	font-size: 18px;
+	line-height: 34px;
+	letter-spacing: 1px;
+}
+#sec02 {
+	position: relative;
+	margin: -65px auto 0 auto;
+	width: 1400px;
+}
+#sec02 p {
+	margin-left: -200px;
+}
+#sec03 h3 {
+	padding: 114px 0 41px 327px;
+}
+#sec03 .txt_01 {
+	padding: 0 0 0 327px;
+}
+.point_col{
+	text-align:center;
+	margin:50px 0 10px 0;
+
+}
+.point_col h3{
+	margin:30px 0;
+}
+.point_col p{
+	font-family:"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	font-size:18px;
+	line-height:220%;
+}
+
+#point02{
+	margin:160px 0px 0 30px;
+}
+#point02_2 {
+	margin-top:0px;
+
+}
+#point02_3 {
+	clear:both;
+	background:url(../img/concept/point_bg.jpg) no-repeat 0 80px;
+	height:250px;
+	margin:0px auto 50px 0;
+	width:970px;
+
+}
+#point02_3 p {
+	padding:120px 50px 0 50px;
+	font-size:15px !important;
+	line-height:200%;
+}
+#point03 {
+	margin:50px 0px 140px 140px;
+	width:500px;
+}
+#point03_2 {
+	margin:120px 140px 0 0px;
+}
+#point04 {
+	margin:40px 50px 100px 0px;
+	width:470px;
+}
+#point04_2 {
+	margin:50px 40px 0 30px;
+}
+#bnr_area {
+	clear:both;
+	width:780px;
+	margin:0 0 80px 80px;
+	position:relative;
+	height:200px;
+}
+#bnr_entry{
+	position:absolute;
+}
+@media screen and (min-width: 768px) {
+	#sec01 p.txt {
+		padding: 0 0 0 73px;
+		margin-top: 70px;
+		cursor: vertical-text;
+	    writing-mode: vertical-rl;
+	    -o-writing-mode: vertical-rl;
+	    -ms-writing-mode: vertical-rl;
+	    -ms-writing-mode: tb-rl;
+	    -moz-writing-mode: vertical-rl;
+	    -webkit-writing-mode: vertical-rl;
+	    text-orientation: upright;
+	    word-wrap: break-word;
+	    height: 447px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.point_col {
+		margin: 20px 0 0;
+	}
+	.point_col h3 {
+		margin: 0;
+	}
+	.point_col p {
+		margin-top: 10px;
+		line-height: inherit;
+	}
+	#sec01 {
+		padding: 20px 0 0;
+	}
+	#sec01 p.txt {
+		padding: 0 2%;
+	}
+	#sec02 {
+		width: auto;
+		padding: 20px 0;
+		margin: 0;
+	}
+	#sec02 p {
+		margin-left: 0;
+	}
+	#point02 {
+		margin: 20px 0;
+	}
+	#point02_2 {
+		text-align: center;
+	}
+	#point02_3 {
+		background: url('../img/concept/bg-box.png') repeat center top;
+		width: auto;
+		margin: 0;
+		height: auto;
+	}
+	#point02_3 p {
+		padding: 20px 2%;
+	}
+	#point03 {
+		width: auto;
+		margin: 20px 0 0;
+	}
+	#point03_2 {
+		margin: 20px 0 0;
+		text-align: center;
+	}
+	#point04 {
+		width: auto;
+		margin: 0;
+	}
+	#point04_2 {
+		margin: 20px 0 0;
+	}
+	#bnr_area {
+		height: 150px;
+		width: auto;
+		margin: 0;
+	}
+}

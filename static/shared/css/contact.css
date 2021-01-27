@@ -1,0 +1,99 @@
+#key {
+	background: url('../img/contact/key.jpg') no-repeat center center;
+}
+#sec01 {
+	padding: 99px 0 77px;
+	text-align: center;
+	line-height: 36px;
+}
+#sec01 .txt {
+	font-size: 18px;
+	margin-top: 14px;
+	letter-spacing: 2px;
+}
+#sec02 {
+	/* font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ明朝体 Pro", "ヒラギノ角ゴシックPro", "ＭＳ ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
+	padding: 26px 0 92px;
+	font-size: 15px;
+	line-height: 30px;
+}
+#sec02 .main {
+	width: 890px;
+	margin: auto;
+}
+#sec02 button {
+	margin-top: 20px;
+}
+#sec02 .box {
+	background: url('../img/contact/sec2_bg.png') no-repeat center top;
+	width: 640px;
+	height: 170px;
+	text-align: center;
+	margin: 59px auto 0;
+	letter-spacing: 2px;
+}
+#sec02 .box h3 {
+	font-size: 18px;
+	padding: 2px 0 6px;
+}
+#sec02 .box .txt {
+	line-height: 24px;
+	padding: 10px 0px;
+}
+#sec02 .box .tel {
+	padding: 7px 0 0;
+	font-size: 16px;
+	line-height: 26px;
+}
+#sec02 .box .tel strong {
+	font-size: 22px;
+	font-weight: bold;
+}
+#sec02 .box .note {
+	position: relative;
+	top: -6px;
+}
+@media screen and (min-width: 769px) {
+	#sec02 input {
+		width: 300px;
+	}
+	#sec02 textarea {
+		width: 410px;
+		min-height: 164px;
+	}
+	#sec02 .input {
+		width: 550px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#sec01 {
+		padding: 30px 0 10px;
+	}
+	#sec01 .txt {
+		font-size: 15px;
+	}
+	#sec02 {
+		background: url('../img/contact/sec2_bgsp.jpg') repeat center top;
+		padding: 10px 0 40px;
+		margin-bottom: 20px;
+	}
+	#sec02 .main {
+		width: auto;
+	}
+	#sec02 .box {
+		background: url('../img/contact/sec2_line2.png') no-repeat center top,
+		url('../img/contact/sec2_line2.png') no-repeat center bottom;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+		margin-top: 20px;
+		padding: 10px 0;
+		border-left: 1px solid #614e37;
+		border-right: 1px solid #614e37;
+		width: auto;
+	}
+	#sec02 .box .txt {
+		display: inline-block;
+		border-top: 1px solid #614e37;
+		border-bottom: 1px solid #614e37;
+	}
+}

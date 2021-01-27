@@ -1,0 +1,195 @@
+input, select, textarea {
+	border-radius: 3px;
+}
+input, select,
+textarea {
+	padding: 0 10px;
+	line-height: 30px;
+	background: #fff;
+	width: 100%;
+	border: none;
+	outline: none;
+}
+input[type=radio],
+input[type=checkbox] {
+	padding: 0;
+	width: auto;
+	position: relative;
+	top: -1px;
+}
+textarea {
+	min-height: 165px;
+	resize: none;
+}
+button {
+	background: none;
+	border: none;
+	outline: none;
+	margin-top: 32px;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #352c22;
+}
+button + button {
+	margin-left: 20px;
+}
+button:hover {
+	background: #694A3E;
+}
+label + label {
+	margin-left: 56px;
+}
+.mailform .form-row {
+	background: url('../img/writer/bg-dl.png') repeat-x center bottom;
+	padding: 15px 5px 15px 0;
+	overflow: auto;
+}
+.mailform .mark-require {
+	color: #FF4141;
+	font-size: small;
+	line-height: 0;
+	margin-left: 7px;
+}
+.mailform .caption {
+	width: 280px;
+	float: left;
+}
+.mailform .caption font {
+	font-size: 14px;
+	line-height: 24px;
+}
+.mailform .input {
+	width: 564px;
+	float: right;
+}
+.mailform .submit {
+	text-align: center;
+}
+/*
+ * Custom mailform
+ *
+ */
+.mailform [class^=error] {
+	position: relative;
+	margin-left: 336px;
+	clear: both;
+}
+.mailform .form-value + .form-value {
+	margin-top: 10px;
+}
+.mailform .form-value > [class^='error'] {
+	bottom: -12px;
+}
+.mailform .form-parse-date {
+	display: inline-block;
+}
+.mailform .form-parse-date input {
+	border-radius: 0;
+}
+.mailform .form-parse-date .nore {
+	margin: 0 22px;
+}
+.mailform .input .nore {
+	margin: 0 30px;
+}
+.mailform .submit-form button {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "メイリオ", Meiryo, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	background-color: #372c21;
+	width: 100%;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	letter-spacing: 3px;
+}
+.mailform .submit-confirm button {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "メイリオ", Meiryo, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	background-color: #372c21;
+	display: inline-block;
+	line-height: 50px;
+	width: 400px;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	letter-spacing: 3px;
+}
+.mailform .submit-form button:hover {
+	background-color: #8f6834;
+}
+.mailform .yubin-postal-mark {
+	padding: 5px;
+	line-height: 1;
+}
+.mailform .yubin-postal-input {
+	padding: 5px;
+}
+.mailform .yubin-locate {
+	padding: 5px;
+}
+.mailform .input > .form-value,
+.mailform .form-parse-date > .form-value {
+	display: inline-block;
+}
+
+.mailform .confirm-hide .end {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3% 0 0 0;
+}
+.mailform .rule {
+    margin-top: 20px;
+    padding: 20px;
+    height: 270px;
+    overflow: auto;
+    border: 1px solid #d8d8d8;
+}
+.mailform .rule dt {
+    font-weight: bold;
+    font-size: 16px;
+}
+.mailform .rule dd {
+    margin-left: 34px;
+    margin-bottom: 17px;
+    line-height: 22px;
+}
+#privacy_checkbox_box {
+    background-color: #010102;
+	text-align: center;
+    margin: 4% auto;
+    padding: 3% 3%;
+    font-weight: bold;
+    width: 85%;
+}
+#privacy_checkbox_box input {
+    width: auto !important;
+}
+.mailform #privacy_checkbox_box [class^=error] {
+	margin-left: 0 !important;
+}
+@media screen and (max-width: 768px) {
+	.mailform .caption {
+		width: auto;
+		float: none;
+	}
+	.mailform .input {
+		width: auto;
+		float: none;
+	}
+	.mailform .form-row {
+		padding: 10px 0 15px;
+	}
+	.mailform [class^=error] {
+		margin-left: 0;
+	}
+	.mailform .yubin-postal-input {
+		width: calc(100% - 34px);
+	}
+	.mailform .submit-confirm button {
+		width: 100%;
+		margin-top: 15px;
+	}
+	button + button {
+		margin-left: 0;
+	}
+}

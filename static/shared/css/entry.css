@@ -1,0 +1,180 @@
+@media screen and (max-width: 768px){
+	
+.vt-sp{
+    display: block;
+    bottom: 200px;
+	right: 20px;
+	top: inherit !important;
+     position: fixed !important;
+}
+}
+#key {
+	background: url('../img/entry/key.jpg') no-repeat center center;
+}
+#rule{
+	padding: 60px 0;
+	text-align: center;
+}
+#rule_col .rule_col {
+	position:relative;
+	clear:both;
+	height:280px;
+	width:1000px;
+	margin:80px auto 0 auto;
+}
+#rule_col .rule_col dt {
+	position:absolute;
+	z-index:2;
+}
+#rule_col .rule_col dd {
+	font-family:"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	position:relative;
+	left:240px;
+	top:170px;
+	font-size:16px;
+	color:#fff;
+	z-index:9;
+	width:600px;
+}
+#section h2 {
+	margin: 50px 0;
+	text-align: center;
+}
+#section p.nonePc {
+	margin-top: 20px;
+}
+#section #flow {
+	background:url('../img/entry/form_flow.jpg') no-repeat 0 0;
+	height:200px;
+	padding:100px 0 0 20px;
+}
+#section #flow li {
+	font-family:"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	float:left;
+	text-align:center;
+	margin-left:30px;
+	margin-right:60px;
+	line-height:180%;
+}
+#section #flow #flow02 {
+	margin-right:70px !important;
+}
+#form {
+	background:url('../img/shared/partent108.jpg') repeat center top;
+	padding:20px 0;
+	margin-bottom:50px;
+}
+#form .wrap {
+	width: 900px;
+}
+#form .mailform .form-row {
+	padding: 15px 10px;
+}
+#form .mailform .form-inline {
+	display: inline-block;
+}
+#form .mailform .w86 {
+	display: inline-block;
+	width: 86px;
+}
+#form .mailform .w164 {
+    background-color: #ddd;
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 164px;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-left: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#form .mailform .w206 {
+	display: inline-block;
+	width: 206px;
+}
+#form .mailform .w366 {
+	display: inline-block;
+	width: 366px;
+}
+#form .mailform .input p {
+    font-size: 90%;
+    line-height: 20px;
+}
+#form .mailform .input p.pt10 {
+    margin-top: 10px;
+}
+#form .mailform [class^=error] {
+	margin-left: 316px;
+}
+@media screen and (max-width: 768px) {
+	#rule {
+		padding: 30px 0;
+	}
+	#rule_col .rule_col {
+	    width: auto;
+	    height: auto;
+	    margin: 20px auto 0 auto;
+	}
+	#rule_col .rule_col dt {
+		position: relative;
+	}
+	#rule_col .rule_col dt img {
+		width: 100%;
+	}
+	#rule_col .rule_col dd {
+		font-size: 15px;
+		line-height: 28px;
+	}
+	#rule_col .rule_col dd br {
+		display: none;
+	}
+	#rule_col .rule_col1 dd {
+		position: absolute;
+	    top: 50%;
+	    left: 32%;
+	    width: 64%;
+	}
+	#rule_col .rule_col2 dd {
+		position: absolute;
+	    top: 50%;
+	    left: 4%;
+	    width: 64%;
+	}
+	#rule_col .rule_col3 dd {
+		position: absolute;
+	    top: 39%;
+	    left: 30%;
+	    width: 68%;
+	}
+	#section h2 {
+		margin: 20px 0;
+	}
+	#form .wrap {
+	    width: auto;
+	}
+	#form .mailform .form-row {
+	    padding: 15px 0px;
+	}
+	#form .mailform .w206,
+	#form .mailform .w164 {
+		width: 48%;
+	}
+	#form .mailform .w164 {
+	    width: 132px;
+	    letter-spacing: 0;
+	    font-size: 12px;
+	}
+	#form .mailform [class^=error] {
+		margin-left: 0;
+	}
+	#section.thanks {
+		padding-bottom: 10px;
+	}
+}
+@media screen and (max-width: 350px) {
+	#rule_col .rule_col dd {
+		font-size: 14px;
+		line-height: 24px;
+	}
+}
